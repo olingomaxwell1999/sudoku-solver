@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#grid{
+    height: 450px;
+    width: 450px;
+    
+    input{
+        width: 50px;
+        height: 50px;
+        border-spacing: 0;
+        border: 1px solid #ff1252;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}
+
+.odd-section {
+    background-color: yellow;
+}
+
+#solve{
+    padding: 10px 20px;
+    border: 1px solid #ff1252;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
